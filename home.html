@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+		<div class="nav_bar">
+	      <ul class flex flex-wrap>
+	  		 <li><a href="home.html">Home</a></li>
+	 		   <li><a href="about.html">About</a></li>
+	 		   <li><a href="contact.html">Faculty profile</a></li>
+	  		 <li><a href="lab.html">Laboratories</a></li>
+		   </ul>
+		</div>
+	</div>
+    <div>
+        <img src="/assets/Logo.svg" height="220px">
+    </div>
+    <section class="root">
+        <img class="mySlides" src="/assets/13969_KCET_NEW.webp"
+        style="width:100%">
+        <img class="mySlides" src="/assets/4.apple_lab_photo_kcet.jpg"
+        style="width:100%">
+        </section>
+        <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+        </script>
+        <div class="myMarquee">
+	<div class="scroller">
+    <center>
+		<div>DEPARTMENT OF INFORMATION TECHNOLOGY<a href="#x"></a>.</div>
+		<div>DEPARTMENT OF INFORMATION TECHNOLOGY<a href="#x"></a>.</div>
+    <div>DEPARTMENT OF INFORMATION TECHNOLOGY<a href="#x"></a>.</div>
+    </center>
+	</div>
+</div>
+<script type="text/javascript" src="http://static.websimages.com/static/global/js/webs/usersites/escort.js"></script>
+    <div class="about-section">
+        <button><b>About Us</b></button>
+        <p>Welcome to the IT Department at Kamaraj College of Engineering and Technology Our department is at the forefront of the ever-evolving field of Information Technology, empowering individuals and organizations to thrive in the digital age. With a legacy dating back to our establishment in 2001, we have been consistently delivering exceptional education and producing high-calibre technocrats. Our team consists of twelve vibrant and highly qualified faculty members who possess expertise in various domains of Information Technology. Among them, three faculty members have successfully completed their doctoral degrees and four faculty members are actively pursuing their doctorates. This ensures that our students receive the most up-to-date and relevant knowledge in the field. At our department, we have a clear objective to equip our students with the skills and knowledge needed to tackle the challenges of the rapidly changing world. We pride ourselves on providing comprehensive education that prepares our students to excel in the IT industry. With Information Technology being an integral part of almost every profession, we emphasize a multidisciplinary approach that encompasses a wide range of key areas. Our curriculum covers Artificial Intelligence, Augmented Reality, Data Analytics, Networking, Data Management, Cyber security, Communications, Web Technology, Software Design, and Systems Management and Administration.
+        </p>
+    </div>
+    <div class="color">
+     <div class="card1">
+      <img src="/assets/DSC_9692.jpg" alt="John" style="width:100%">
+      <h1><b>Dr.Vakai Malar</b></h1>
+      <p class="title">Head of the Department</p>
+      <p>KAMARAJ COLLEGE OF ENGINEERING & TECHNOLOGY</p>
+      <button>Contact</button>
+     </div>
+    </div>
+    <div class="achievements">
+      <div class="work1">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Vision</p>
+        <p class="work-text">To Make this Institution the unique of its kind in the field of Research and Development activities in this part of world.</p>
+      </div>
+      <div class="work2">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Awards&reconigtion</p>
+        <p class="work-text">To impart highly innovative and technical knowledge to the urban and unreachable rural student folks through "Total Quality Education".</p>
+      </div>
+      <div class="work3">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">legacy</p>
+        <p class="work-text">Committed to impart Quality Technical Education imbibed with proficiency, human values and continual improvement.</p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h2>A Few Of Our Prominent Recruiters
+      </h2>
+       <section class="customer-logos slider">
+          <div class="slide"><img src="/assets/111.jpg"></div>
+          <div class="slide"><img src="/assets/Picture1.png"></div>
+          <div class="slide"><img src="/assets/Picture11.jpg"></div>
+          <div class="slide"><img src="/assets/Picture12.png"></div>
+          <div class="slide"><img src="/assets/Picture13.png"></div>
+          <div class="slide"><img src="/assets/Picture2.jpg"></div>
+          <div class="slide"><img src="/assets/Picture4.jpg"></div>
+          <div class="slide"><img src="/assets/Picture8.jpg"></div>
+          <div class="slide"><img src="/assets/Picture5.jpg"></div>
+       </section>
+    </div>
+    <script>
+      $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+</script>
+
+<footer class="bg-dark-1">
+  <section id="footer" class="py-5">
+    <div class="container text-center">
+      <a href="#" class="twitter"></a>
+      <a href="#" class="linkedin"></a>
+      <a href="#" class="facebook"></a>
+      <a href="#" class="skype"></a>
+      <a href="#" class="flickr"></a>
+      <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright &copy; 2023 designed by sumathi</h6>
+    </div>
+  </section>
+</footer>
+</body>
+</html>
